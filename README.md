@@ -11,3 +11,5 @@ I am making sure that I am following the instructions, and the outline, and I am
 I liked being able to work with the tabs and also show the active tab, which is definitley more user friendly when they are jumping back and forth. 
 
 I like how it is very much so user based and user friendly and I think that is the thing that I am going to take away from this and place more of an emphasis in my design. Less complex, more focused on user. 
+
+The JavaScript is fairly complicated for me when I was looking at it, but once I stepped into it and took it slow, it began to make more sense. I like how elements are able to be manipulated by the JavaScript code and have interactive parts to it. I am excited to push it onto my startup and have more interactive parts just like the login. 
