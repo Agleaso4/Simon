@@ -136,6 +136,13 @@ body {
     border: solid thin rgb(117, 0, 0);
     background-color: #300;
   }
+
+  td {
+    max-width: 40vw;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
   
   .center {
     top: 50%;

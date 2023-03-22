@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simon</title>
-    <link rel="icon" href="favicon.ico" />
 
     <link rel="stylesheet" href="main.css" />
 
@@ -38,19 +37,39 @@
 
     <main class="bg-secondary">
       <div class="players">
-        Player: 
+        Player:
         <span class="player-name"></span>
       </div>
       <div class="game">
         <div class="button-container">
-          <button id="green" class="game-button button-top-left" onclick="game.pressButton(this)"></button>
-          <button id="red" class="game-button button-top-right" onclick="game.pressButton(this)"></button>
-          <button id="yellow" class="game-button button-bottom-left" onclick="game.pressButton(this)"></button>
-          <button id="blue" class="game-button button-bottom-right" onclick="game.pressButton(this)"></button>
+          <!-- buttons are discovered in the JavaScript by selecting the game-button class -->
+          <!-- onclick triggers a button push interaction -->
+          <button
+            id="green"
+            class="game-button button-top-left"
+            onclick="game.pressButton(this)"
+          ></button>
+          <button
+            id="red"
+            class="game-button button-top-right"
+            onclick="game.pressButton(this)"
+          ></button>
+          <button
+            id="yellow"
+            class="game-button button-bottom-left"
+            onclick="game.pressButton(this)"
+          ></button>
+          <button
+            id="blue"
+            class="game-button button-bottom-right"
+            onclick="game.pressButton(this)"
+          ></button>
           <div class="controls center">
             <div class="game-name">Simon<sup>&reg;</sup></div>
             <div id="score" class="score center">--</div>
-            <button class="btn btn-primary" onclick="game.reset()">Reset</button>
+            <button class="btn btn-primary" onclick="game.reset()">
+              Reset
+            </button>
           </div>
         </div>
       </div>
@@ -60,11 +79,14 @@
       <div class="container-fluid">
         <span class="text-reset">Author Name(s)</span>
         <a
-        class="text-reset" 
-        href="https://github.com/Agleaso4/Simon"
-        >AmmonG</a>  
+          class="text-reset"
+          href="https://github.com/webprogramming260/simon-db"
+          >Source</a
+        >
       </div>
     </footer>
+
+    <!-- Script is located at the bottom because it references HTML elements during initialization -->
     <script src="play.js"></script>
   </body>
 </html>
